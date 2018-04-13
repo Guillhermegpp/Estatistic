@@ -14,9 +14,9 @@ public class EMain {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		double e = Math.E;
-		System.out.println(e);
-
+		
+		Binomial bnm = new Binomial();
+		bnm.get();
 	}
 
 }

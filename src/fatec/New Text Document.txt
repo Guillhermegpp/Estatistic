@@ -1,0 +1,5 @@
+metodos recursivos para somatoria de X>=x e X<=x
+
+rec(int x)
+soma = P(x);
+return soma + rec(--x);

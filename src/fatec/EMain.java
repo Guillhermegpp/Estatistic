@@ -16,7 +16,10 @@ public class EMain {
 	public static void main(String[] args) throws Exception {
 		
 		Binomial bnm = new Binomial();
-		bnm.get();
+		//bnm.get();
+		
+		Poisson ps = new Poisson();
+		ps.get();
 	}
 
 }
